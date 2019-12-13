@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="App">
           <button onClick={() => this.handleOnClickItems()}>
-            Click to change items count
+            Click to change item count
             </button>
           <button onClick={() => this.handleOnClickUsers()}>
             Click to change user count
@@ -33,7 +33,7 @@ class App extends Component {
 const mapStateToProps = (state) => {
 
 
-  
+
   return { items: state.items }
 }
  
